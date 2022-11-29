@@ -13,7 +13,8 @@ if proceed > costs:
     profit = proceed - costs
     workers = int(input("Введите количество сотрудников: "))
     profit_per_person = profit / workers
-    print(f"Прибыль фирмы в расчете на одного сотрудника: {round(profit_per_person, 2)} рублей")
+    print(f"Прибыль фирмы в расчете на одного сотрудника: "
+          f"{round(profit_per_person, 2)} рублей")
 elif proceed < costs:
     print("Сумма издержек больше дохода")
 else:
