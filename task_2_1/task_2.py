@@ -3,6 +3,7 @@
 Используйте форматирование строк."""
 
 a = int(input("Введите время в секундах: "))
+
 hours = a // 3600
 minutes = a // 60 % 60
 seconds = a % 60
@@ -15,6 +16,4 @@ if seconds < 10:
     seconds = "0" + str(seconds)
 
 print("Время на часах: {hours}:{minutes}:{seconds}".format(
-    hours=hours, minutes=minutes, seconds=seconds
-    )
-)
+    hours=hours, minutes=minutes, seconds=seconds))
