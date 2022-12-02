@@ -20,7 +20,7 @@ for i in range(1, 4):
                          'количество': product_count,
                          'eд': product_measure}))
 
-print(f"Ваш список товаров: \n{products}")
+print(f"Cписок товаров: \n{products}")
 
 product_names = []
 product_prices = []
