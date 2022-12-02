@@ -3,12 +3,11 @@
 функцию type() для проверки типа. Элементы списка можно не запрашивать
 у пользователя, а указать явно, в программе."""
 
-random_list = [999, "52", True, 3.5]
-
 
 def output_type(some_list):
     for i in range(len(some_list)):
         print(type(some_list[i]))
 
 
+random_list = [999, "52", True, 3.5]
 output_type(random_list)
