@@ -9,7 +9,6 @@ random_list = [999, "52", True, 3.5]
 def output_type(some_list):
     for i in range(len(some_list)):
         print(type(some_list[i]))
-    return
 
 
 output_type(random_list)
