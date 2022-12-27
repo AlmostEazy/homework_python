@@ -56,7 +56,3 @@ def n_list(some_list):
     new_list = [i for i in some_list if some_list.count(i) == 1]
 
     return new_list
-
-
-
-

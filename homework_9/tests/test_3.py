@@ -29,4 +29,3 @@ class TestPow(unittest.TestCase):
 
     def test_pow_not_none(self):
         self.assertIsNotNone(my_func(2, -2))
-
