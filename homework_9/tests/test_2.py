@@ -1,6 +1,6 @@
 import unittest
 
-from ..temp import sum_numbers
+from temp import sum_numbers
 
 
 class TestSum(unittest.TestCase):

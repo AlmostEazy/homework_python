@@ -1,6 +1,6 @@
 import unittest
 
-from ..temp import my_func
+from temp import my_func
 
 
 class TestPow(unittest.TestCase):
