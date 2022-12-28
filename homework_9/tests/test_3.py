@@ -24,8 +24,5 @@ class TestPow(unittest.TestCase):
     def test_pow_not_instance(self):
         self.assertNotIsInstance(my_func(2, -2), str)
 
-    def test_is_not(self):
-        self.assertIsNot(2, -2)
-
     def test_pow_not_none(self):
         self.assertIsNotNone(my_func(2, -2))
