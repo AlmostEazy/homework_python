@@ -1,6 +1,6 @@
 import unittest
 
-from homework_9.temp import n_list
+from ..temp import n_list
 
 
 class TestList(unittest.TestCase):
