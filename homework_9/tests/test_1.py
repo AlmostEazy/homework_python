@@ -1,6 +1,7 @@
 import unittest
 
-from homework_9.temp import CustomError, division
+from homework_9.temp import division
+from homework_9.temp import CustomError
 
 
 class TestDivide(unittest.TestCase):
