@@ -19,13 +19,11 @@ class Road:
         self.depth = depth
 
     def mass(self):
-        length = self._length
-        width = self._width
-        weight = self.weight
-        depth = self.depth
-        total = length * width * weight * depth / 1000
-        return print(f"Масса асфальта:\n{length} м * {width} м * "
-                     f"{weight} кг * {depth} см = ", total, "т")
+        total = self._length * self._width * self.weight * \
+                self.depth / 1000
+        return print(f"Масса асфальта:\n{self._length} м * "
+                     f"{self._width} м * {self.weight} кг * "
+                     f"{self.depth} см =", total, "т")
 
 
 r = Road(20, 5000, 25, 5)
