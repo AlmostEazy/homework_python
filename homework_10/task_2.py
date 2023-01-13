@@ -4,10 +4,10 @@
 class Singleton(type):
     __instance = {}
 
-    def __call__(self, *args, **kwargs):
-        if self.__instance is None:
-            self.__instance = super().__call__(*args, **kwargs)
-            return self.__instance
+    def __call__(cls, *args, **kwargs):
+        if cls.__instance is None:
+            cls.__instance = super().__call__(*args, **kwargs)
+            return cls.__instance
 
 
 class Road(metaclass=Singleton):
@@ -34,5 +34,3 @@ c = Road(20, 5000, 25, 5)
 print(a is b)
 print(a is c)
 print(b is c)
-
-
