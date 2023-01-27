@@ -13,10 +13,8 @@ my_list = ["разработка", "администрирование", "protoc
 
 for i in my_list:
     enc_i = i.encode("utf-8")
-
     print(enc_i)
 
     dec_i = enc_i.decode("utf-8")
-
     print(dec_i)
     print()
